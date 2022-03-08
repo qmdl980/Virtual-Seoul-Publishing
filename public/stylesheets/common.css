@@ -1,0 +1,295 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: "Nanum Square Round";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../font/NanumSquareRoundR.eot?#iefix) format("embedded-opentype"),
+        url(../font/NanumSquareRoundR.woff2) format("woff2"),
+        url(../font/NanumSquareRoundR.woff) format("woff"),
+        url(../font/NanumSquareRoundR.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Nanum Square Round";
+    font-style: normal;
+    font-weight: 500;
+    src: url(../font/NanumSquareRoundB.eot?#iefix) format("embedded-opentype"),
+        url(../font/NanumSquareRoundB.woff2) format("woff2"),
+        url(../font/NanumSquareRoundB.woff) format("woff");
+    /* url(../font/NanumSB.ttf) format('truetype'); */
+}
+
+@font-face {
+    font-family: "Nanum Square Round";
+    font-style: normal;
+    font-weight: 700;
+    src: url(../font/NanumSquareRoundEB.eot?#iefix) format("embedded-opentype"),
+        url(../font/NanumSquareRoundEB.woff2) format("woff2"),
+        url(../font/NanumSquareRoundEB.woff) format("woff"),
+        url(../font/NanumSquareRoundEB.ttf) format("truetype");
+}
+
+html,
+body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+html {
+    font-size: 62.5%;
+    transform:skew(-0.001deg);
+}
+
+body {
+    position: relative;
+    min-height: 100%;
+    line-height: 1.3;
+    color: #323232;
+    font-family: "Nanum Square Round", sans-serif, Apple Gothic;
+    font-size: 1.3rem;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    vertical-align: middle;
+    /* -webkit-appearance: none;
+  appearance: none;
+  -moz-appearance: none; */
+    -webkit-text-size-adjust: none;
+    word-break: normal;
+    resize: none;
+    outline: 0;
+    font-family: "Nanum Square Round", sans-serif, Apple Gothic;
+}
+
+body,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+span,
+p,
+blockquote,
+pre,
+abbr,
+acronym,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+figure,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+form,
+fieldset,
+legend,
+a,
+textarea,
+input,
+select,
+option,
+button,
+label,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:focus {
+}
+
+a:active,
+a:hover {
+    outline: 0;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+    font-size: inherit;
+}
+
+b {
+    font-weight: 700;
+}
+
+strong {
+    font-weight: 400;
+    vertical-align: middle;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+var {
+    font-style: normal;
+    font-weight: 400;
+}
+
+abbr,
+acronym,
+img,
+button {
+    border: 0;
+}
+
+pre {
+    white-space: pre-wrap;
+}
+
+sub,
+sup {
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -1em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+span,
+em {
+    vertical-align: top;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+figure {
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+button,
+input,
+select,
+textarea {
+    border: 0 none;
+    outline: 0 none;
+}
+
+textarea {
+    vertical-align: top;
+    border: solid 1px #ccc;
+}
+
+table {
+    border-collapse: collapse;
+    empty-cells: show;
+    border-spacing: 0;
+    table-layout: fixed;
+}
+
+table caption,
+fieldset legend {
+    display: none;
+}
+
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+.ellipsis {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.ellipsis {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}

@@ -1,0 +1,235 @@
+  main {
+    font-family: 'Noto Sans KR', sans-serif;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+
+  .input_item {
+    position: relative;
+    border-bottom: 1px solid #ccc;
+    padding: 0.8rem 0;
+    width: 100%;
+    margin-bottom: 1.2rem;
+    transition: all 0.3s;
+    color: #aaa;
+  }
+
+  .input_item:hover,
+  .input_item:focus,
+  .input_item:active {
+    color: #0070f3;
+    border-color: #0070f3;
+  }
+
+  .label_odc {
+    position: absolute;
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+  }
+
+  .remember_checkbox {
+    border: 0.98604px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 2px;
+  }
+
+  .submit_login {
+    width: 260px;
+    height: 40px;
+    margin : 5px;
+    padding : 10px;
+    
+    background: #252525;
+    border-radius: 1.97208px;
+
+    color : #ffffff;
+  }
+
+  .submit_login:hover,
+  .submit_login:focus,
+  .submit_login:active {
+    border-color: #0070f3;
+    background : #0070f3;
+  }
+
+  .top {
+    padding : 2rem;
+    background-color : #ededed;
+    text-align: center;
+
+  }
+
+  .desc {
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight : bold;
+    color: #32366a;
+  }
+
+  .info {
+    text-align: center;
+    line-height: 5;
+    font-size: 1rem;
+  }
+
+  .forget {
+    text-align: center;
+    font-size: 0.8rem;
+  }
+
+  .grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .login_box {
+    position: absolute;
+    top : 550px;
+    left: 50%;
+    width : 380px;
+    padding: 3rem;
+    color: inherit;
+    text-decoration: none;
+    border: 2px solid #eaeaea;
+    border-radius: 2px;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s;
+  }
+
+  .login_box:hover,
+  .login_box:focus,
+  .login_box:active {
+    color: #0070f3;
+    border-color: #0070f3;
+  }
+
+
+
+  .card p {
+    margin: 0;
+    font-size: 1.25rem;
+    line-height: 1.5;
+  }
+
+
+  .container {
+    min-height: 100vh;
+    padding: 0 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  dashmain {
+    padding: 3rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .info_list {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 1.7rem 0rem 1rem 0rem;
+    text-align: left;
+    line-height: 5;
+    font-size: 1.1rem;
+  }
+
+  .csv_button {
+    width: 120px;
+    height: 30px;
+    margin : 1.0rem 0 0 0rem;
+    padding : 1px;
+    background: #19962c;
+    border-radius: 3px;
+    float : right;
+    transition: all 0.5s;
+  }
+
+  .csv_button:hover,
+  .csv_button:focus,
+  .csv_button:active {
+    color : #FFFFFF;
+  }
+
+  .dashgrid {
+    margin: 0 0 0 0rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .dashgrid h3 {
+    text-align: center;
+    margin: 0 0 1rem 0;
+    font-size: 1.8rem;
+  }
+
+  .dashgrid p {
+    margin: 0;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 10rem;
+  }
+
+  .card_attendee {
+    height : 22rem;
+    width : 25rem;
+    margin: 1rem;
+    padding: 6rem 0 0 0;
+    border: 3px solid #ffca18;
+    border-radius: 1.5px;
+    transition: all 0.5s;
+    transition-delay: 0.1s;
+  }
+
+  .card_attendee:hover,
+  .card_attendee:focus,
+  .card_attendee:active {
+    color: #ffffff;
+    border-color: #ffca18;
+    background: #ffca18;
+  }
+
+  .card_analytics {
+    height : 22rem;
+    width : 25rem;
+    margin: 1rem;
+    padding: 6rem 0 0 0;
+    border: 2px solid #ff8131;
+    border-radius: 1.5px;
+    transition: all 0.5s;
+    transition-delay: 0.1s;
+  }
+
+  .card_analytics:hover,
+  .card_analytics:focus,
+  .card_analytics:active {
+    color: #ffffff;
+    background: #ff8131;
+  }
+
+  .card_business {
+    height : 22rem;
+    width : 18.2rem;
+    margin: 1rem;
+    padding: 6rem 0 0 0;
+    border: 2px solid #3184ff;
+    border-radius: 1.5px;
+    transition: all 0.5s;
+    transition-delay: 0.1s;
+  }
+
+  .card_business:hover,
+  .card_business:focus,
+  .card_business:active {
+    color: #ffffff;
+    background: #3184ff;
+  }

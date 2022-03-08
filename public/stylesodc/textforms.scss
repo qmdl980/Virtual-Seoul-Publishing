@@ -1,0 +1,259 @@
+.inputTitle {
+  font-size: 14px;
+  width: fit-content;
+  font-weight: bold;
+
+}
+
+.customText{
+  margin:5px;
+  color:#808080
+}
+
+.mail-container{
+
+  flex:none;
+  padding: 50px 100px;
+
+  overflow-y: auto;
+  &::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+  }
+  table{
+    border-collapse: collapse;
+    td{
+      border: 1px solid slategray;
+    }
+
+    input{
+      border: 0;
+      padding-left: 10px;
+      &:focus{
+        outline: none;
+      }
+    }
+
+    textarea{
+      resize: none;
+      border: 0;
+      padding-left: 10px;
+      &:focus{
+        outline: none;
+      }
+    }
+    .mail-td1{
+      background-color: #e1e0ff;
+      text-align: center;
+      color: #fff;
+      font-weight: 900;
+      width: 120px;
+      font-size: 1.5rem;
+      padding: 30px;
+    }
+
+    .mail-td2{
+      background-color: #e1e0ff;
+      text-align: center;
+      color: #fff;
+      font-weight: 900;
+      width: 120px;
+      font-size: 1.5rem;
+      padding: 30px;
+    }
+
+    .mail-input-td1{
+      min-width: 400px;
+      width: 60vw;
+      input{
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .mail-input-td2{
+      width: 60vw;
+      height: 300px;
+      textarea{
+        width: 97%;
+        height: 90%;
+      }
+    }
+
+  }
+
+  .mail-participant-form{
+
+  }
+
+  .mail-company-form{
+
+  }
+
+  .mail-password-reset-form{
+
+  }
+}
+
+.tooltipDiv {
+  display: inline-block;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.tooltip {
+  margin-top: 40%;
+  color: #808080;
+  display: inline-block;
+
+  font-family: 'Noto Sans', sans-serif;
+  position: relative;
+}
+
+.tooltip-text {
+  display: none;
+  position: absolute;
+  border: 1px solid #E1E0ff;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 14px;
+  color: black;
+  background: #E1E0ff;
+  width: 250px;
+}
+
+.tooltip:hover .tooltip-text {
+  display: block;
+}
+
+.tooltip .tooltip-text {
+  width: 300px;
+  top: 150%;
+  left: 50%;
+  margin-left: -150px;
+}
+
+#platform-table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+#virtual-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#virtual-table {
+  // width: 100%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.virtual-table-th {
+  background-color: #e1e0ff;
+  color: #635dff;
+  border: 3px solid #f2f2f2;
+  padding: 8px 10px;
+  font-size:1.6rem;
+}
+
+td {
+  background-color: #ffffff;
+  border: 3px solid #f2f2f2;
+  color: #333335;
+  padding: 8px;
+}
+
+.virtual-table-name {
+  font-size: 1.5rem;
+  background-color: #fafaff;
+  text-align: center;
+}
+
+.virtual-table-venue {
+  font-size: 1.6rem;;
+  background-color: #fafaff;
+  text-align: center;
+}
+
+.virtual-table-checkbox {
+  text-align: center;
+}
+
+.virtual-table-main-function {
+  font-weight: bolder;
+  font-size: 1.6rem;;
+}
+
+.virtual-table-detail-function {
+  font-size: 1.6rem;;
+}
+
+.virtual-setting-btn {
+  width: 155px;
+  height: 50px;
+  color: #635dff;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 2rem;;
+  line-height: 22px;
+  background-color: #e1e0ff;
+  border: none;
+  border-radius: 5px;
+  margin: 20px auto;
+}
+
+.input-file-button{
+  padding: 6px 25px;
+  background-color:#E1E0ff;
+  border-radius: 4px;
+  color: #635dff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.input-file-button-right{
+  padding: 4px 25px;
+  background-color:#E1E0ff;
+  border-radius: 4px;
+  color: #635dff;
+  font-weight: bold;
+  cursor: pointer;
+  float : right;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #4caf50;
+  color: white;
+  border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+.upload_text {
+  color : #7f7f7f;
+  text-align: left;
+}
+
+.bottom_text1 {
+  color : #ff6464;
+}
+
+.bottom_text2 {
+  color : #ff7d5c;
+  float : right;
+}
