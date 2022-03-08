@@ -2,7 +2,7 @@
 
 #### 현재 사용되고 있는 CMS 페이지 설명서
 
-https://korean.miceseoul.com/humanframe/theme/mice/assets/images/infra/%EB%B2%84%EC%B6%94%EC%96%BC%20%EC%84%9C%EC%9A%B8%202.0%20%EC%A3%BC%EC%B5%9C%EC%9E%90%EC%9A%A9%20%EC%9D%B4%EC%9A%A9%EC%95%88%EB%82%B4%EC%84%9C_v1.4.pdf
+#### https://korean.miceseoul.com/humanframe/theme/mice/assets/images/infra/%EB%B2%84%EC%B6%94%EC%96%BC%20%EC%84%9C%EC%9A%B8%202.0%20%EC%A3%BC%EC%B5%9C%EC%9E%90%EC%9A%A9%20%EC%9D%B4%EC%9A%A9%EC%95%88%EB%82%B4%EC%84%9C_v1.4.pdf
 ---
 
 ## 팀으로 구성되어 퍼블리싱 작업을 진행했으며, 포트폴리오로 사용하고자 업로드 했음
